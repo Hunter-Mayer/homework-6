@@ -1,7 +1,7 @@
 # Hunter Mayer Homework Challenge 6
 
 ## Description
-Add Here 
+In this assignment I used various third party APIs to fetch weather data and display both the current temperature given a city input and the five day forecast for that city. 
 
 ### Acceptance Criteria
 GIVEN a weather dashboard with form inputs
@@ -16,13 +16,13 @@ THEN I am again presented with current and future conditions for that city
 
 ### Screenshot
 
-![screenshot](add here)
+![screenshot](/images/screencapture-file-C-Users-Hunter-code-Challenge-6-index-html-2022-10-12-14_31_53.png)
 
 
 
 ### Deployed Application Links
 
-Github Repo: add here
+Github Repo: https://github.com/Hunter-Mayer/homework-6
 
 Github Page: add here
 

@@ -54,7 +54,7 @@ function renderForecast(input) {
             var wind = document.createElement('p')
             var humidity = document.createElement('p')
 
-            date.textContent = moment.unix(data2.list[i].dt).format("MM-DD-YYYY")
+            date.textContent = "Weather in " + input + " on " + moment.unix(data2.list[i].dt).format("MM-DD-YYYY")
             temperature.textContent = "Temp: " + data2.list[i].main.temp + " °F"
             wind.textContent = "Wind: " + data2.list[i].wind.speed + " MPH"
             humidity.textContent = "Humidity: " + data2.list[i].main.humidity + " %"
