@@ -1,8 +1,12 @@
 var APIKey = "21608b13cfc9360b12231cf7c4d067a6"
 var searchBtn = $('#searchBtn')
 var input = $('#input')
+var currentTempEl = document.getElementById('temperature')
+var currentWindSpeedEl = document.getElementById('wind')
+var currentHumidityEl = document.getElementById('humidity')
 
 function search(){
+  //adds functionality to the search button, runs the functions created when search is clicked
     var inputValue = input.val()
     console.log(inputValue)
     renderWeather(inputValue)
@@ -20,7 +24,12 @@ function renderWeather(input) {
       })
       .then(function(data){
         console.log(data)
-        
+        var temperature = data.main.temp
+        var wind = data.wind.speed
+        var humidity = data.main.humidity
+          currentTempEl.textContent = "Tempature in " + input + " is " + temperature + " °F"
+          currentWindSpeedEl.textContent = "Wind speed in " + input + " is " + wind + " MPH"
+          currentHumidityEl.textContent = "Humidity in " + input + " is " + humidity + " %"
         })
 }
 
