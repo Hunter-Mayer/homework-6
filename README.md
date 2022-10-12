@@ -24,7 +24,7 @@ THEN I am again presented with current and future conditions for that city
 
 Github Repo: https://github.com/Hunter-Mayer/homework-6
 
-Github Page: add here
+Github Page: https://hunter-mayer.github.io/homework-6/
 
 ## Credits
 
